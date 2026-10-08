@@ -1,0 +1,28 @@
+{
+  "name": "hotel-booking-system",
+  "version": "1.0.0",
+  "description": "Hotel Room Booking & Management System - college mini project using Node.js, Express, SQLite and vanilla JS",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "hotel",
+    "booking",
+    "express",
+    "sqlite",
+    "rest-api"
+  ],
+  "author": "Saumya",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
